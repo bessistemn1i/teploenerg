@@ -1,0 +1,43 @@
+@keyframes FadeIn {
+    0% {
+        // box model
+        height: initial;
+
+        // visual
+        opacity: 0;
+    }
+
+    100% {
+        // box model
+        height: initial;
+
+        // visual
+        opacity: 1;
+    }
+}
+
+@keyframes FadeOut {
+    0% {
+        // box model
+        height: initial;
+
+        // visual
+        opacity: 1;
+    }
+
+    99% {
+        // box model
+        height: initial;
+
+        // visual
+        opacity: 0;
+    }
+
+    100% {
+        // box model
+        height: 0;
+
+        // visual
+        opacity: 0;
+    }
+}
